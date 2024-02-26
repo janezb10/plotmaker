@@ -7,3 +7,6 @@ django superuser
 user: user
 pass: pass
 email: test@test.si
+
+
+VS Code REST Client extension for testing endpoints
