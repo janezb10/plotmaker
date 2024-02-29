@@ -3,6 +3,16 @@ POST http://127.0.0.1:8000/api/v1/scatter/
 content-type: application/json
 
 {
-    "x": "[1,2,3,4.5]",
-    "y": "[1,2,3,4]"
+    "x": [1,2,3,4.5],
+    "y": [1,2,3,4]
+}
+
+
+### scatter
+POST http://127.0.0.1:8000/api/v1/scatter/
+content-type: application/json
+
+{
+    "x": 1,
+    "y": [1,2,3,4]
 }
